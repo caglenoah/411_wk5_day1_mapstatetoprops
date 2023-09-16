@@ -1,4 +1,4 @@
-export default {
+const state = {
     // Add user property here
     cars: [
         {
@@ -243,4 +243,4 @@ export default {
         }
     ]
   };
-  
+  export default state

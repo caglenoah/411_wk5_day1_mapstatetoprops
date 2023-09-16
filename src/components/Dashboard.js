@@ -7,9 +7,10 @@ import {
     TableHead,
     TableRow
 } from '@mui/material'
-import cars from '../cars.json' // remove this
 
 const Dashboard = (props) => {
+    const cars = props.cars
+
     return (
         <Container maxWidth="lg" className="car-container">
             {/* Change NAME to props.user.username */}
